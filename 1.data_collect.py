@@ -29,7 +29,7 @@ def get_holder(str_holder):
 
 
 if __name__ == '__main__':
-    read_book_file_path = '融合样例文件'
+    read_book_file_path = '样例文件'
     read_book_file_list = os.listdir(read_book_file_path)
 
     csv_write_file_path = '词向量预处理数据_1'

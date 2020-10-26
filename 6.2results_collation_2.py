@@ -15,8 +15,6 @@ if __name__ == '__main__':
         word_dict = dict()
         for each_word in word_list:
             each_word = each_word.lower()
-            if each_word in stop_word_list:
-                continue
             if each_word not in word_dict:
                 word_dict[each_word] = 1
             else:

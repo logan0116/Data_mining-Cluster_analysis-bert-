@@ -33,6 +33,6 @@ def deal(read_file_path, write_file_path):
 
 
 if __name__ == '__main__':
-    read_file_path = '词向量预处理数据_1/yjm_20201023_2.csv'
-    write_file_path = '词向量预处理数据_1/yjm_20201023_2_span.csv'
+    read_file_path = '词向量预处理数据_1/test_2.csv'
+    write_file_path = '词向量预处理数据_1/test_2_span.csv'
     deal(read_file_path, write_file_path)

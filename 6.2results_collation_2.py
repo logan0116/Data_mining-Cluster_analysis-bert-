@@ -1,11 +1,8 @@
 import csv
 import os
 
-stop_word_list = ['a', 'of', 'with', 'the', 'and', 'is', 'for', 'as', 'has', 'by', 'to', 'where', 'in', 'are', 'on',
-                  'whose', 'that', 'which', 'an']
-
 if __name__ == '__main__':
-    cluster_path = 'cluster_20201023'
+    cluster_path = 'cluster'
     cluster_list = os.listdir(cluster_path)
 
     for each_cluster_path in cluster_list:

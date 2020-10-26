@@ -2,7 +2,7 @@ import csv
 import os
 
 if __name__ == '__main__':
-    cluster_path = 'cluster_20201023'
+    cluster_path = 'cluster'
     cluster_list = os.listdir(cluster_path)
 
     time_count = [[0 for j in range(16)] for i in range(len(cluster_list))]

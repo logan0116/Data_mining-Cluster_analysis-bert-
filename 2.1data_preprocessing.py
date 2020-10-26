@@ -95,7 +95,7 @@ def deal(length_mean, read_file_path, write_file_path):
 
 
 if __name__ == '__main__':
-    read_file_path = '词向量预处理数据_1/yjm_20201023.csv'
+    read_file_path = '词向量预处理数据_1/test.csv'
     length_mean, length_var = get_statistics(read_file_path)
-    write_file_path = '词向量预处理数据_1/yjm_20201023_2.csv'
+    write_file_path = '词向量预处理数据_1/test_2.csv'
     deal(length_mean, read_file_path, write_file_path)
